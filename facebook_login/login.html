@@ -4,6 +4,24 @@
 <title>Facebook Login JavaScript Example</title>
 <meta charset="UTF-8">
 </head>
+<style>
+
+._4z_d {
+    height: 58px;
+	  
+}
+._4z_d ._55a2 {
+    height: 40px;
+    width: 121px;
+	    padding-top: 8px;
+}
+   ._4z_d ._4z_f {
+    font-size: 30px;
+    line-height: 14px;
+    padding: 12px 119px;
+    margin-right: 32px;
+}
+</style>
 <body>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -95,7 +113,7 @@
   the FB.login() function when clicked.
 -->
 
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+<fb:login-button size="large" auto_logout_link=true scope="public_profile,email" onlogin="checkLoginState();">
 </fb:login-button>
 
 <div id="status">
@@ -103,3 +121,4 @@
 
 </body>
 </html>
+
