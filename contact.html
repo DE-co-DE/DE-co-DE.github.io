@@ -4,14 +4,14 @@
 <head>
 <title>Dev</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (necessary JavaScript plugins) -->
+
 <script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
+
  <link href="css/dashboard.css" rel="stylesheet">
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 
-<!-- Custom Theme files -->
-<!--//theme-style-->
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Curriculum Vitae Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -19,7 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-<!-- start menu -->
+
   
 </head>
 <body>
@@ -79,13 +79,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 		 <div class="company contact-grid">
 			 <h3 class="clr1">Contact</h3>
-			 <form>	
-					<input type="text" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">					
-					<input type="text" value="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
-					<input type="text" value="Subject" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">						
-					<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+			 <form method="post" action="contact.php">	
+					<input type="text" value="Name" name="name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">					
+					<input type="text" value="Email" name="email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
+					<input type="text" value="Subject" name="telephone" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">						
+					<textarea cols="77" rows="6" value=" " name="comments" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
 					<div class="send">
-						<input type="submit" value="Send" >
+						<input type="submit" value="Send" name="submit">
 					</div>
 			 </form>
 			
