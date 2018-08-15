@@ -38,7 +38,7 @@
 </head>
 
 <body>
-	
+	<div class="loader"></div>
 <div class="w3_agilits_banner_bootm">
 	<!-- header -->
 	<div class="container">
@@ -287,6 +287,8 @@
 	<script src="js/jquery.magnific-popup.js"></script>
 	<script>
 		$(document).ready(function () {
+$('.loader').delay(1000).fadeOut();
+
 			$('.popup-with-zoom-anim').magnificPopup({
 				type: 'inline',
 				fixedContentPos: false,
@@ -317,6 +319,7 @@
 						$('.close').click(function(){
 
                    var modal=$('.modal').hide();
+                   $('#img01').attr('src',selfsrc);
                                      $('#m_nav_menu').show();
 
 				});	
