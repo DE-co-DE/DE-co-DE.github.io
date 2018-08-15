@@ -282,7 +282,14 @@
 	<!-- /numscroller -->		
 	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
 	<!-- //numscroller -->	
-	
+	<script>
+document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 85 )) {
+            return false;
+        }
+};
+</script>
 	<!--pop-up-box -->
 	<script src="js/jquery.magnific-popup.js"></script>
 	<script>
