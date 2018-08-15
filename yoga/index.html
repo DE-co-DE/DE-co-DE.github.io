@@ -286,8 +286,11 @@
 	<!--pop-up-box -->
 	<script src="js/jquery.magnific-popup.js"></script>
 	<script>
+		$(window).load(function(){
+$('.loader').delay(2000).fadeOut();
+
+		});
 		$(document).ready(function () {
-$('.loader').delay(1000).fadeOut();
 
 			$('.popup-with-zoom-anim').magnificPopup({
 				type: 'inline',
