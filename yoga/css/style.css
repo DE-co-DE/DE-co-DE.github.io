@@ -595,6 +595,14 @@ p.stats-info {
     -ms-transition: 0.5s all;
     -o-transition: 0.5s all;
 }
+.sessions{
+    
+    list-style: circle;
+    font-style:  italic;
+    color: #ce9165;
+    font-weight: 500;
+
+}
 .blog1 a,.blog2 a {
     padding: 12px 30px;
     font-size: 15px;
@@ -1421,7 +1429,7 @@ arrow-container,
 
 /*-- footer --*/
 .footer {
-    background: linear-gradient(to top,black,#01b7ce);
+    background: #1d1c1cb5;
 
 }
 .footer-grid h3, .footer-list h3, .agile-footer-grid h3 {
@@ -1624,7 +1632,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	min-height: 366px;
 }
 .inner-page-banner1{
-    background: url(../images/b1.jpg) no-repeat center;
+    background: url(../images/service.jpg) no-repeat center;
     min-height: 366px;
     background-size: cover;
 }
@@ -1637,12 +1645,13 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     -ms-background-size: 2px;
     min-height: 366px;
 }
+
 .inner-page-banner h2, .inner-page-banner1 h2 {
     color: #FFFFFF;
     font-weight: 600;
     text-decoration: none;
-    font-size: 3em;
-	padding-top: 3em;
+    font-size: 2.5em;
+	padding-top: 5.6em;
 }
 .inner-page-banner p a , .inner-page-banner1 p a{
     margin-right: 1em;
