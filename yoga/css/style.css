@@ -2105,7 +2105,8 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 		display:none;
 	}
 	.welcome-right {
-		padding-right: 0;
+        padding-right: 0;
+		padding-left: 0;
 	}
 	.welcome-right h4 {
 		letter-spacing: 0px;
