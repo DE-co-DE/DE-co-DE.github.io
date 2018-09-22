@@ -9,7 +9,9 @@ body{
 ul.navbar-nav li a{
 	color: #fff;
 }
-
+.overlay{
+	    background: #0000006e;
+}
 h1.botm_line {
 	font-weight: normal;
 }
