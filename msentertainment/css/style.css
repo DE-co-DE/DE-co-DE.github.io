@@ -711,8 +711,8 @@ h3.w3layouts-heading span {
 
 h3.white-title {
     color: #fff;
-    background: url(../images/gold.png)no-repeat 4px 2px;
-    background-size: 34px;
+       background: url(../images/gold.png)no-repeat -7px 4px;
+    background-size: 56px;
 }
 
 .title-img {
@@ -726,14 +726,15 @@ h3.white-title {
 }
 
 .bold-title {
-    font-size: 6em;
+      font-size: 6em;
     color: #fff;
     font-weight: 700;
     line-height: 68px;
     padding-top: 1em;
-    background: url(../images/gold.png)no-repeat 3px 61px;
-    background-size: 59px;
-    padding-left: 59px;
+    background: url(../images/gold.png)no-repeat 3px 85px;
+    background-size: 82px;
+    padding-left: 75px;
+    transform: rotate3d(0, 1, 0, 14deg);
 }
 
 .white-img {
@@ -1155,6 +1156,33 @@ li.nbs-flexisel-item img {
     padding: 10px;
     border: 5px solid #ffffff;
 }
+.caption2{
+        margin-top: 68px;
+}
+.project_d5 {
+    cursor: pointer;
+}
+.project_d5 a:before,.project_d5 a:after {
+ position: absolute;
+    cursor: pointer;
+    content: "";
+    width: 235px;
+    height: 1px;
+    background: #fff;
+    bottom: 91px;
+
+
+}
+.project_d5 a:after {
+bottom: 85px;
+}
+.project_d5 a{
+    color:#fff;
+
+}
+.project_d5 a:hover{
+font-size: 19px;
+}
 .service-agileinfo-grids p {
     margin: 1em 0 1em;
 }
@@ -1256,8 +1284,8 @@ li.nbs-flexisel-item img {
     bottom: -123px;
     margin: 0;
     left: 0;
-    background: rgba(150, 150, 150, 0.64);
-    border-top: 5px solid #031322;
+    background: rgba(49, 120, 154, 0.72);
+        border-top: 5px solid #031322;
     padding: 1em;
     -webkit-transition: .5s all;
     transition: .5s all;
@@ -1872,8 +1900,8 @@ li.nbs-flexisel-item img {
 }
 
 .contact-left-w3-agile-sectn h4 {
-    color: #e00231;
-    font-size: 1.2em;
+    color: #38b1d8;
+        font-size: 1.2em;
     margin-bottom: .5em;
     text-shadow: 1px 1px 2px #000;
 }
